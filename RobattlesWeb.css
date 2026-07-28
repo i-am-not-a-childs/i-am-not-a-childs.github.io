@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+p {
+    font-size: 16px;
+    color: whitesmoke;
+}
+h1 {
+    color: floralwhite;
+    font-size: 52px;
+    text-align: center;
+    font-style: bold;
+    text-shadow: -2px 2px rgb(193, 193, 193);
+}
+h2 {
+    color:rgb(235, 235, 235);
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
