@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Robattles Development</title>
     <link rel="stylesheet" href="RobattlesWeb.css">
 </head>
 <body>
