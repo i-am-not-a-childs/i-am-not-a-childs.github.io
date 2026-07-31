@@ -5,6 +5,8 @@ body {
 p {
   font-size: 16px;
   color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
@@ -26,6 +28,8 @@ h3 {
   color: rgb(235, 235, 235);
   font-size: 24px;
   text-decoration: underline;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 ul {
