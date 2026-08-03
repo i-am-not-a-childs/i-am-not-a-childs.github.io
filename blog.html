@@ -19,21 +19,38 @@
     <p>
         The paper this article is on is called <i>World Models</i>. This paper essentially shows that AI can be 
         taught how the world works, and it can use that knowledge to create a simulator to train itself to complete
-        its task, whatever that may be. I feel that World Models could be used in my game to allow the AI controlling
+        its task, whatever that may be. I feel that world models could be used in my game to allow the AI controlling
         the robot to simulate ways of attack more and more as the game progresses, teaching it new things, and 
-        allowing it to beat almost any enemy. The robots in my game would most likely use World Models to
+        allowing it to beat almost any enemy. The robots in my game would most likely use world models to
         practice against different kinds of enemies, while also getting itself used to its own abilities.
         I learned a lot from this article, including what I have already said. Some more things that I have learned 
-        is that, sometimes, the AI can create the World Model incorrectly and with a glitch. This would cause the 
+        is that, sometimes, the AI can create the world model incorrectly and with a glitch. This would cause the 
         AI to learn the wrong way to beat the game, and in the actual game, it would fail miserably and in my game, 
         be utterly destroyed. To correct this, the authors suggested that there should be some randomness to the 
-        Model. For example, in a racing game, it could have different wind velocities, or different levels of 
-        traction to the track. This noise makes it so that the AI can't memorize one perfect strategy, it has to 
+        model. For example, in a racing game, it could have different wind velocities, or different levels of 
+        traction on the track. This "noise" makes it so that the AI can't memorize one perfect strategy, it has to 
         learn something that works in lots of different situations. That transfers much better to the real world.
         All of this could dramatically help a robot, because it could train in its own world, which is much cheaper
-        and it saves the robot's durability and energy. One cool thing about this system is that, the AI doesn't have
+        and it saves the robot's durability and energy. One cool thing about this system is that the AI doesn't have
         to remember everything about the arena, it can just rebember the important things. For example, in my game, 
         all the AI would need to remember is the weapons and the target. It could ignore everything else.
+    </p>
+    <br>
+    <br>
+    <h3>What I Learned From <i>PlaNet: Learning Latent Dynamics for Planning from Pixels</i></h3>
+    <p>
+        The paper this article is about is called <i>PlaNet: Learning Latent Dynamics for Planning from Pixels</i>.
+        To summarize, this article shows that using world models, AI can plan and predict what will happen next, 
+        whcih can greatly reduce the amount of real-world experiences ending in failure. The AI in Robattles could
+        use PlaNet to plan ahead, which could make the player's robot more efficient. In the game, I feel that PlaNet
+        could be an upgrade. Some interesting things I have learned beside what I have already said are that, PlaNet
+        learns both the predictable <i>and</i> the unpredictable parts of the world. It also makes long term 
+        predictions to make much better decisions. PlaNet can help robots by allowing them to predict what might 
+        happen next in the world, which in turn allows them to make better decisions, letting them waste less time, 
+        money, and energy. My final takeaway is that PlaNet makes multiple predictions with a few key numbers, 
+        representing pixels from the images of the world. It trains itself to predict many steps into the future, 
+        making long-term planning more accurate. These predictions can help robots in Robattles to make life-or-death
+        decisions such as if they should avoid an attack, or if they can survive it and take down the enemy.
     </p>
 </body>
 

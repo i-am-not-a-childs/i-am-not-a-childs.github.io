@@ -7,6 +7,7 @@ p {
   color: whitesmoke;
   margin-left: 10%;
   margin-right: 10%;
+  letter-spacing: 0.4px;
 }
 
 h1 {
@@ -21,13 +22,11 @@ h2 {
   color: rgb(235, 235, 235);
   font-size: 28px;
   text-align: center;
-  text-decoration: underline;
 }
 
 h3 {
   color: rgb(235, 235, 235);
   font-size: 24px;
-  text-decoration: underline;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -54,4 +53,14 @@ ul li a {
 
 .centered {
   text-align: center;
+}
+
+.right {
+  float:right;
+  text-align: right;
+}
+
+.left {
+  float: left;
+  text-align: left;
 }
